@@ -23,7 +23,7 @@ Getting started with the project : The project consists in making a dog flap. Th
 •	Using the Arduino IDE, upload the code “ArduinoDogV1.ino” in the Arduino Uno. 
 •	You can wire the lcd display as on the picture below.
 
-<img src="Images/LCDwiring.png" >
+<img src="Images/LCDwiring.png">
 
 •	The pins corresponding to the actuator power supplies are connected to the Arduino power pins and you can wire the buzzer to the pin 9 and the servomotor to the pin 10. Then Wire the Arduino to the raspberry pi using the USB cable.
 
