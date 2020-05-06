@@ -28,11 +28,13 @@ Getting started with the project : The project consists in making a dog flap. Th
 •	The pins corresponding to the actuator power supplies are connected to the Arduino power pins and you can wire the buzzer to the pin 9 and the servomotor to the pin 10. Then Wire the Arduino to the raspberry pi using the USB cable.
 
 ## Raspberry part
+<p style='text-align: justify;'>
 •	First, connect the Raspberry to the plug.
 •	We assume that you have already installed Raspbian on your raspberry and that you have connected your PC screen (using the HDMI cable), keyboard and mouse. (Installation of Raspbian OS : https://www.youtube.com/watch?v=M26GYJzblEY )
 •	Install all the libraries present in the code “Cavalier_Breed_Recognition.py”. To do that, you can install the pip manager using this command ”sudo apt-get install python3-pip”.
 •	Then, if you want to install a library you must proceed like this: “pip install yourLibraries”.
 •	After that, plug the Pi Camera and enable the camera module in the raspberry pi 4 settings using “sudo raspi-config” (interfacing options). While you are in the settings, activate the serial communication of the raspberry and the SSH.
+ </p>
 
 <img src="Images/RaspiConfig.png" width="1245" height="350">
 
